@@ -22,7 +22,4 @@ def task(csv_string):
 
     return postprocess_relations(output_relations)
 
-with open('fff.csv') as file:
-    csv_string = file.read()
-    result = task(csv_string)
-    print(result)
+
