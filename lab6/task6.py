@@ -37,4 +37,3 @@ def task(json_input):
         key10e = 1 / lambda1 * ykeys
     key10e = np.around(key10e, 3)
     return json.dumps(key10e.tolist())
-print(task('[[1,3,2],[2,2,2],[1.5,3,1.5]]'))

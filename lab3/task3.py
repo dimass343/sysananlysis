@@ -100,9 +100,3 @@ def task(csvString: str):
 
 reference = [[1,3],[2,3,4,5],[1],[4,5],[2,3,4,5]]
 
-with open('fff.csv') as file:
-    csvString = file.read()
-    result = task(csvString)
-    print(reference)
-    print(result)
-    print(result == reference)
